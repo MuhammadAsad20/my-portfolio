@@ -17,10 +17,9 @@ const Hero = () => {
         <motion.img
           src="https://shorturl.at/jBfqE"
           alt="Muhammad Asad"
-          className="w-48 h-48 rounded-full mb-4 border-4 border-[#EBD6DC] shadow-lg"
+          className="w-48 h-48 rounded-full mb-4 border-4 border-[#EBD6DC] shadow-lg sm:ml-0 ml-auto mr-auto" // Mobile-specific centering
           animate={{
-            
-            rotate: [0, 10, -10, 10, 0],  // Rotation effect
+            rotate: [0, 10, -10, 10, 0], // Rotation effect
           }}
           transition={{
             duration: 20, // Duration for one full cycle
